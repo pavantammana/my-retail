@@ -8,7 +8,7 @@ This project, my-retail, is a Spring Boot project.  It has the following depende
 It makes use of Spring for DI and endpoint processing. Uses MongoDB as NoSQL store for storing the price related documents
 
 ##Setup
-Repository location is:
+Repository location is: https://github.com/pavantammana/my-retail
 
 MongoDB running with default configuration (localhost:27017 and the default db 'test' and collection name for prices is 'productPrice').
 

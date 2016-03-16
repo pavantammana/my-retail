@@ -1,0 +1,144 @@
+{
+  "relation": "VC",
+  "relation_description": "Variation Child",
+  "data_page_link": "http://www.target.com/p/iphone-6-plus-at-t/-/A-24004535",
+  "imn_identifier": 14184627,
+  "parent_id": "24004535",
+  "identifier": [
+    {
+      "id_type": "DPCI",
+      "id": "255-02-0368",
+      "is_primary": null,
+      "source": "Online and Store"
+    },
+    {
+      "id_type": "TCIN",
+      "id": "16483589",
+      "is_primary": null,
+      "source": "Online"
+    }
+  ],
+  "is_orderable": true,
+  "is_sellable": true,
+  "general_description": "AT&T iPhone 6 plus Gold 128GB",
+  "business_process_status": [
+    {
+      "process_status": {
+        "is_ready": true,
+        "operation_description": "assortment ready",
+        "operation_code": "PAAP"
+      }
+    },
+    {
+      "process_status": {
+        "is_ready": false,
+        "operation_description": "import ready",
+        "operation_code": "PIPT"
+      }
+    },
+    {
+      "process_status": {
+        "is_ready": true,
+        "operation_description": "order ready",
+        "operation_code": "PORD"
+      }
+    },
+    {
+      "process_status": {
+        "is_ready": true,
+        "operation_description": "presentation ready",
+        "operation_code": "PPRS"
+      }
+    },
+    {
+      "process_status": {
+        "is_ready": true,
+        "operation_description": "project ready",
+        "operation_code": "PCMT"
+      }
+    },
+    {
+      "process_status": {
+        "is_ready": true,
+        "operation_description": "replenishment ready",
+        "operation_code": "PRPL"
+      }
+    },
+    {
+      "process_status": {
+        "is_ready": false,
+        "operation_description": "scale ready",
+        "operation_code": "PSCL"
+      }
+    },
+    {
+      "process_status": {
+        "is_ready": true,
+        "operation_description": "target.com ready",
+        "operation_code": "PTGT"
+      }
+    }
+  ],
+  "dpci": "255-02-0368",
+  "department_id": 255,
+  "class_id": 2,
+  "item_id": 368,
+  "online_description": {
+    "value": "iPhone 6 Plus 128GB Gold - AT&T",
+    "type": "GENL"
+  },
+  "store_description": {
+    "value": "AT&T iPhone 6 plus Gold 128GB",
+    "type": "GENL"
+  },
+  "alternate_description": [
+    {
+      "type": "ADSG",
+      "value": "AT&T cell phone",
+      "type_description": "Ad Signage Description"
+    },
+    {
+      "type": "POS",
+      "value": "AT&T CELL",
+      "type_description": "POS Desc"
+    },
+    {
+      "type": "SHLF",
+      "value": "IPHONE6PLUSGOLD128GB",
+      "type_description": "Shelf Desc"
+    },
+    {
+      "type": "VEND",
+      "value": "Pizza-029",
+      "type_description": "Vendor Description"
+    },
+    {
+      "type": "DETL",
+      "value": "iPhone 6 Plus isn’t just bigger—it’s better in every way. A 5.5-inch Retina HD display. An A8 chip with 64-bit desktop-class architecture. A new 8MP iSight camera with Focus Pixels and optical image stabilization. The Touch ID fingerprint identity sensor. Faster LTE and Wi-Fi.1 Longer battery life.2 And iOS 8 and iCloud. All in a 7.1mm thin seamless design.     • 5.5-inch (diagonal) Retina HD display with 1920-by-1080 resolution  • A8 chip with M8 motion coprocessor  • 8-megapixel iSight camera with Focus Pixels, True Tone flash, and optical image stabilization  • 1080p HD video recording at 60 fps and slo-mo video recording at 240 fps ...",
+      "type_description": "Online Detailed Description"
+    }
+  ],
+  "features": [
+    {"feature": "Service Provider:  AT&T"},
+    {"feature": "Phone Type:  Smartphone"},
+    {"feature": "Operating System:  iOS 8"},
+    {"feature": "Talk Time:  Up to 24 Hours"},
+    {"feature": "Standby Time:  up to 390 hours"},
+    {"feature": "Screen Size:  5.500"},
+    {"feature": "Maximum Resolution:  1920 x 1080"},
+    {"feature": "Megapixels:  8.000"},
+    {"feature": "Video Resolution:  720p"},
+    {"feature": "Built-In Memory Storage Capacity:  128GB"},
+    {"feature": "Wired Connectivity:  USB"},
+    {"feature": "Wireless Frequency"},
+    {"feature": "Band:  850"},
+    {"feature": "900"},
+    {"feature": "1900 MHz"},
+    {"feature": "Wireless Technology:  GSM"},
+    {"feature": "Battery Cell Type:  lithium ion"},
+    {"feature": "Includes:  Lightning-to-USB cable, Earphones"},
+    {"feature": "Not Included:  Service Plan, Data Plan"},
+    {"feature": "Battery  required, included:"},
+    {"feature": "Assembly Details:  no assembly required"}
+  ]
+}

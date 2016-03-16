@@ -17,4 +17,3 @@ After cloning the project, In IntelliJ, simply File->Open and click the pom.xml 
 
 IntelliJ 14.1+ is Spring Boot aware and has excellent help and completion for Spring Boot configuration.  After loading the project, you can run the project in IntelliJ by simply doing a right-click on the MyRetailApplication class and selecting Run. IntelliJ will recognize it as a Spring Boot app and start it accordingly.  It also gives some special configuration options for Spring Boot apps in the Run/Debug Configuration.
 
-# my-retail

@@ -35,6 +35,7 @@ IntelliJ 14.1+ is Spring Boot aware and has excellent help and completion for Sp
 Got to folder where your project is located and run following commands
 
 mvn clean install
+
 mvn spring-boot:run
 
 ##Tests

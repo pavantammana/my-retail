@@ -12,13 +12,17 @@ Repository location is: https://github.com/pavantammana/my-retail
 
 MongoDB running with default configuration (localhost:27017 and the default db 'test' and collection name for prices is 'productPrice').
 
-#Data Setup
+##Data Setup
 Start MongoDB locally and once you are in the Mongo Shell run the following following commands to setup data
 
 use test
+
 db.productPrice.drop()
+
 db.createCollection("productPrice")
+
 db.productPrice.insert({"skuId" : "16483589", "price" : "13.25", "currencyCode" : "USD" })
+
 
 
 ##IDE Configuration

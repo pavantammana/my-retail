@@ -45,5 +45,19 @@ To run tests from Maven just run 'mvn clean install'
 
 Pre-requisite: To make sure your integration tests run please run 'Data Setup' section
 
+## Accessing API
 
+API only supports application/json as the media-type. Please set both the Content-Type and Accepts header to 'application/json' before accessing the api.
 
+GET Product
+
+  curl -X GET -H 'Content-Type:application/json' -H 'Accept:application/json' http://localhost:8080/api/v1/products/16483589
+
+PUT Price
+
+  curl -X PUT -H 'Content-Type:application/json' -H 'Accept:application/json' -d '{"currencyCode": "USD", "value": "13.25"}' http://localhost:8080/api/v1/products/16483589/price
+
+##Assumptions
+
+- The GET API is designed to return the aggregated data for a product only if both product information and price information is available. Otherwise it will return 404
+- The PUT API is designed to only update if there is a product already has a price associated with it.

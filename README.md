@@ -59,5 +59,5 @@ PUT Price
 
 ##Assumptions
 
-- The GET API is designed to return the aggregated data for a product only if both product information and price information is available. Otherwise it will return 404
-- The PUT API is designed to only update if there is a product already has a price associated with it.
+- The GET API is designed to return the aggregated data for a product only if both product information and price information is available, otherwise it will return 404
+- The PUT API is designed to only update if there is a product given already has a price associated with it, otherwise it will return 404.

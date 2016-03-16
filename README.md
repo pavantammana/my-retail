@@ -5,7 +5,7 @@ This project, my-retail, is a Spring Boot project.  It has the following depende
    - MongoDB
    - Spock for testing
 
-It makes use of Spring for DI and endpoint processing. Uses MongoDB as NoSQL store for storing the price related documents
+It makes use of Spring for DI, implementing REST endpoints and also invoking external REST calls. Uses MongoDB as NoSQL store for storing the price related documents
 
 ##Setup
 Repository location is: https://github.com/pavantammana/my-retail
